@@ -1,2 +1,1 @@
-# memory-game
-Card memory game with vue.js
+# memory-game using vue.js
