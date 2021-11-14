@@ -1,8 +1,8 @@
 <template>
-  <div class="card" @click="handleClick">
+  <div class="card">
       <div :class="{'flipped': flipped}">
         <img class="front" :src="card.src" alt="card front" />
-        <img class="back" src="https://i.ibb.co/YQyT987/cover.png"  alt="cover" />
+        <img class="back" @click="handleClick" src="https://i.ibb.co/YQyT987/cover.png"  alt="cover" />
       </div>
     </div>
 </template>
